@@ -1,0 +1,134 @@
+@keyframes animate{
+    from{
+        text-shadow: 0 0 20px #289aab;
+    }
+    to{
+        text-shadow: 0 0 30px #289aab,
+                     0  0 10px #289aab;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    padding: 2% 3%;
+    font-family: 'Ravi Prakash';
+    font-weight: 400;
+    font-size: 48px;
+    color: rgba(249, 102, 215, 1);
+    text-shadow: 
+    0 0 2px  #F966D7,
+    0 0 4px  #F966D7,
+    0 0 6px  #F966D7,
+    0 0 8px  #F966D7,
+    0 0 2px  #F966D7,
+    0 0 2px  #F966D7,
+    0 0 2px  #F966D7,
+    0 0 2px  #F966D7;
+}
+.sidebar{
+    background-color: #080426;
+    width: 200px;
+}
+.sidebar nav{
+    padding: 5%;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 33px 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:  rgba(249, 102, 215, 1);
+    text-shadow: 
+    0 0 2px  #F966D7,
+    0 0 2px  #F966D7,
+    0 0 2px  #F966D7,
+    0 0 8px  #F966D7,
+    0 0 2px  #F966D7,
+    0 0 2px  #F966D7,
+    0 0 2px  #F966D7,
+    0 0 2px  #F966D7;
+}
+.main{
+    background-color:#080426 ;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.contactform {
+    padding: 0 34px;
+    padding-top: 50px;
+    font-family:sans-serif ;
+    color: #419E98;
+    text-align: center;
+    
+}
+.contactform h1{
+    font-family: monospace;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 50px;
+    color: #419E98;
+    animation: animate 1s ease-in-out infinite alternate;
+
+}
+.contactform h2{
+    padding-bottom: 20px;
+}
+.contactform div{
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 8px;
+    color: #289aab;
+    margin: 0 5px;
+}
+.connect{
+    font-size: 30px;
+    padding: 20px;
+}
+.sicon ul{
+    position: absolute;
+    left: 49%;
+    display: flex;
+
+}
+.sicon ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.sicon ul li .fab{
+    font-size: 34px;
+    color: #419E98;
+    animation: animate 1s ease-in-out infinite alternate;
+}
+.sicon ul li a:hover .fab{
+    color: white;
+}
+.sicon ul li a:hover .fab{
+    transform: translate(0,-10%);
+    
+}
+
+.contactform form button{
+    background-color: #419E98;
+    border-radius: 40%;
+    height: 30px;
+    width: 60px;
+}
+.contactform form button:hover{
+    background-color: bisque;
+}
+.qouate{
+    font-size: 30px;
+    margin-top: 20px;
+    animation: animate 1s ease-in-out infinite alternate;
+}
